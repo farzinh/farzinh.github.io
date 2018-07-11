@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>فصل دوم بخش ب</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="فرزین">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css" />
+    <!--link rel="stylesheet" href="./theme/css/bootstrap-rtl.css" type="text/css" /-->
+    <link href="./theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="./theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./theme/images/apple-touch-icon-114x114.png">
+
+    <link href="./" type="application/atom+xml" rel="alternate" title="راهنمای آسان نصب و استفاده از سیستم عاملی ناشناس و امن برای تازه کاران ATOM Feed" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="./index.html">راهنمای آسان نصب و استفاده از سیستم عاملی ناشناس و امن برای تازه کاران </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+                <li><a href="./pages/about">درباره</a></li>
+                <li><a href="./pages/downloads">دانلود</a></li>                
+                <li><a href="./pages/support">پشتیبانی</a></li>
+                
+                          <!--ul class="nav pull-right">
+                                <li><a href="./archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                          </ul-->
+
+            </ul>
+            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="span9" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to فصل دوم بخش ب">
+                                        فصل دوم بخش ب
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <!--div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2018-06-10T00:00:00+04:30">
+        <i class="icon-calendar"></i>Sun 10 June 2018
+</abbr>
+<span class="label">By</span>
+<a href="./author/frzyn.html"><i class="icon-user"></i>فرزین</a>
+<span class="label">Category</span>
+<a href="./category/chapters.html"><i class="icon-folder-open"></i>chapters</a>.
+
+
+</footer><!-- /.post-info -->                </div-->
+                <h2>نصب سیستم عامل بر روی پارتیشن هارد درایو رمزنگاری شده همراه بافلش درایو نگه دارنده کلید بوت</h2>
+<hr>
+<p>همچنان که قبلن هم گفته شد اگر <strong>هر گونه اطلاعات مهمی</strong> دارید باید نگران پاک شدنشان باشید. لطفن اگر هنوز از سیستمتان <strong>بک آپ</strong> نگرفته اید این کار را انجام دهید. برای جلوگیری از اینکه هرگونه اتفاق بدی بیفتد چون شما باید هاردتان را پارتیشن بندی کنید امکان از دست رفتن اطلاعات وجود دارد. از این بحث میگذریم بیایید شروع کنیم.</p>
+<p>۱. زمانی که از شما خواسته شد <strong>partitioning method</strong> را انتخاب کنید <strong>Manual</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/01.png"></p>
+<p>۲. در ابتدا باید <strong>فلش درایوتان</strong> را آماده کنید تا از آن به عنوان درایو کلید بوت استفاده کنید سپس نام درایو را یادداشت کنید.در مثال زیر فلش درایوی که به عنوان دیسک کلید بوت استفاده شده با نام  <strong>(SCSI5 (0,0,0) (sdc</strong> نمایش داده شده و هارد درایو داخلی جایی که <strong>root دبیان</strong> بر روی آن نصب می‌شود <strong>(SCSI1 (0,0,0) (sda</strong> است. اهمیت اختصاصی با دستگاه فلش درایوتان که می‌خواهید کلید بوت را بر  روی آن نصب کنید است. که در مثال پایین <strong>sdc</strong> می باشد. هرچند که <strong>این نام ممکن است بر روی کامپیوتر شم متفاوت باشد</strong>.به درایو ها نگاه کنید و درایوی که <strong>سایزش با سایز فلش درایوتان یکی است</strong> را انتخاب کنید. از نام فلش درایوتان یاد داشتی بردارید و آن را برای استفاده آینده در جایی نگه دارید. حالا فلش درایوی را که می خواهید برای کلید بوت سیستم مورد استفاده قرار دهید را انتخاب کرده وenter کنید.</p>
+<p><strong>نکته:</strong> اگر در حال نصب دبیان از روی فلش درایو قابل بوت هستید حواستان باشد که باید فلش درایوی را که متفاوت با این فلش درایو است را انتخاب کنبد. در غیر این صورت اگر دبیان را بر روی درایو حامل نصاب دبیان نصب کنبد در نهایت نصب ناموفق خواهد بود.(یعنی حواستون باشه اینجا باید دو تا فلش استفاده کنید یکی که توش فایل نصاب یکی دیگه هم که خالیه و باید روش کلید و بریزید)</p>
+<p><img alt="Photo" src="./pic/2/B/02.png"></p>
+<p>۳. در صفحه بعد که بنمایش در می‌آید <strong>Yes</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/03.png"></p>
+<p>۴. در صفحه بعد در بین گزینه ها گزینه ای با برچسب <strong>FREE SPACE</strong> را می‌بینید آن را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/04.png"></p>
+<p>۵.در صفحه بعد <strong>Create a new partition</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/05.png"></p>
+<p>۶. در صفحه بعد از شما خواسته می‌شود که یک سایز برای پارتیشنتان انتخاب کنید. شما می‌توانید براحتی مقداری که سیستم به صورت پیشفرض انتخاب کرده را به همان حالت رها کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/06.png"></p>
+<p>۷. در صفحه بعد از شما <strong>Type for the new partition</strong> خواسته می‌شود. <strong>Primary</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/07.png"></p>
+<p>۸. در صفحه بعد باید <strong>تنظیمات پارتیشنتان</strong> را انتخاب کنید. در اینجا گزینه های زیادی وجود دارد. اگرچه در این گام شما فقط باید نگران یک گزینه باشید. باید <strong>Mount point</strong> را به <strong>boot/</strong> تغییر دهید پس Mount point را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/08.png"></p>
+<p>۹. در صفحه بعد <strong>boot – static files of the boot  loader/</strong>  را انتخاب کرده و Enter ککنید </p>
+<p><img alt="Photo" src="./pic/2/B/09.png"></p>
+<p>۱۰. در صفحه بعد گزینه <strong>Done setting up the partition</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/10.png"></p>
+<p>۱۱. در صفحه بعد شما پروسه <strong>تغییر سایز پارتیشن را بر روی هارد</strong> داخلیتان آغاز می‌کنید تا بتوانید یک پارتیشن رمزنگاری شده برای سیستم عامل دبیان بسازید. در این آموزش هارد درایو داخلی <strong>sda</strong> است . در کامپیوتر شما نام هارد درایوتان ممکن است متفاوت باشد.همچنین ممکن است تعدادی پارتیشن داشته باشید که در نامشان sda وجود دارد. <strong>بزرگترین</strong> آن را انتخاب کرده و آن را به مقدار سایزی که می خواهید به دبیانتان اختصاص بدهبد کوچک کنید. اگرچه قبل از انجام اینکار اطمینان حاصل کنید که به اندازه کافی فضا در درایو وجود دارد تا اجازه کوچک کردن را به شما بدهد. درایوی را که می‌خواهید کوچک کنید را انتخاب و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/11.png"></p>
+<p>۱۲.  در صفحه بعد <strong>Resize the partition</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/12.png"></p>
+<p>۱۳. در صفحه بعد <strong>Yes</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/13.png"></p>
+<p>۱۴. در صفحه بعد از شما خواسته می‌شود که یک سایز پارتیشن جدید وارد کنید. <strong>۶۴ گیگ</strong> باید برای هدفتان کافی باشد در کمترین حالت ۳۲ گیگ فضا را وارد کنید. اگرچه اگر می‌خواهید بیشتر از ۶۴ گیگابایت اختصاص دهید و فضای کافی برای انجام این کار دارید آزادید که انجامش دهید. در مثال زیر ۶۴ گیگابایت برای چیزی که قرار است سیستم عامل رمزشده مان باشد انتخاب شده است. از آنجایی که حداکثر فضای دیسگ <em>در این مثال ۵۳۲.۹ گیگ است با کسر ۶۴ گیگابایت ۴۶۸.۹ گیگابایت باقی می ماند.</em> از همین شیوه استفاده کنید تا تعیین کنید که باید چه مقداری در فیلد برای برای سایز پارتیشن جدید وارد کنید و سپس Enter کنید. پروسه ممکن است کمی طول  بکشد.</p>
+<p><img alt="Photo" src="./pic/2/B/14.png"></p>
+<p>۱۵. در صفحه بعد شما برچسبی با نام <strong>FREE SPACE</strong> در زیر sda همراه با سایزی که برای رمزنگاری دیسک تان انتخاب کردید مشاهده می‌کنید آن را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/15.png"></p>
+<p>۱۶. در صفحه بعد <strong>Create a new partition</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/16.png"></p>
+<p>۱۷. در صفحه بعد نیز <strong>حداکثر سایز دیسک به صورت پیشفرض</strong> انتخاب شده است. Enter کرده و ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/17.png"></p>
+<p>۱۸. در صفحه بعد <strong>Logical</strong> را انتخاب کرده و Enter‌کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/18.png"></p>
+<p>۱۹. در صفحه بعد باید این پارتیشن را را بعنوان پارتیشن رمزنگاری شده تنظیم کنیم. <strong>Use as: Ext4 journaling file system</strong> را انتخاب و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/19.png"></p>
+<p>۲۰. در صفحه بعد گزینه <strong>physical volume for encryption</strong> را انتخاب کرده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/20.png"></p>
+<p>۲۱. <strong>این گام انتخابی است</strong> (یعنی میتونید انجامش ندید). در صفحه بعد گزینه ای با عنوان <strong>Erase data</strong> وجود دارد که به صورت <strong>پیشفرض بر روی Yes</strong> تنظیم شده است. اگر انتخاب کنید که اطلاعات پاک شود نصاب تمام پارتیشن را با داده‌های شبه رندوم رو نویسی می‌کند. اگر می‌خواهید تا امنیتتان را سفت تر بگیرید این کار توصیه می‌شود چرا که در صورتی که شخصی بخواهد هاردتان را جرم شناسی کند کار او بیشتر سخت می شود. هر چند این مرحله می‌تواند <strong>زمان بسیار زیادی</strong> ببرد. در صورتی که می‌خواهید این بخش را رد کنید گزینه <strong>Erase data</strong> را انتخاب کرده و Enter کنید. تنظیم گزینه به حالت <strong>No</strong> در خواهد آمد.در صورتی که می‌خواهید دیتا را پاک کنید <strong>این مرحله را نادیده گرفته و به گام ۲۲</strong> بروید.</p>
+<p><img alt="Photo" src="./pic/2/B/21.png"></p>
+<p>۲۲. در این گام <strong>Done setting up the partition</strong> را انتخاب و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/22.png"></p>
+<p>۲۳. در صفحه بعد <strong>Configure encrypted volumes</strong> را انتخاب کرده و Enter  کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/23.png"></p>
+<p>۲۴. در صفحه بعد <strong>Yes</strong> را انتخاب کرده و Enter کنید</p>
+<p><img alt="Photo" src="./pic/2/B/24.png"></p>
+<p>۲۵. در صفحه بعد <strong>Finish</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/25.png"></p>
+<p>۲۶. اگر در <strong>گام ۲۱ Erase data</strong> را انتخاب کردید. از شما دوباره پرسیده می‌شود که آیا می‌خواهید داده‌ها پاک شوند. اگر همچنان تصمیم به این کار دارید <strong>Yes</strong> را انتخاب کرده و Enter کنید. این پروسه <strong>ممکن است ساعت‌ها زمان ببرد</strong>. اگر انتخاب کرده بودید که داده‌ها پاک نشود این صفحه به نمایش در نخواهد آمد و شما می‌توانید وارد <strong>گام ۲۷</strong> شوید.</p>
+<p><img alt="Photo" src="./pic/2/B/26.png"></p>
+<p>۲۷. در صفحه بعد از شما پسورد رمزنگاری خواسته می شود.در اینجا بسیار مهم است که یک رمز عبور بسیار قوی انتخاب کنید در غیر اینصورت رمزنگاری فلشتان بی‌فایده خواهد بود. چنان که ما در <em>گام ۱۳ از  بخش – د فصل اول</em> اشاره کردیم یک پسورد ۸ کارکتری <strong>هرگز</strong> پسورد خوبی نخواهد بود.از آنجایی که نصاب دبیان از برنامه <strong>cryptsetup</strong> و سیستم رمزنگاری <strong>LUCKS</strong> استفاده می کند؛توسعه دهنده این برنامه موارد زیر را برای ساخت یک پسورد قدرتمند مهم می داند:</p>
+<blockquote>
+<p><em>(توجه کنید که نیاز نیست خیلی تو اعداد دقیق بشین فقط یه دید انتزاعی پیدا کنین کافیه)</em></p>
+</blockquote>
+<p><strong>در ابتدا طول رمز عبور مقیاس خوبی در برابر آنتروپی (ترکیبی بودن) آن نیست. برای مثال یک حرف کوچک از حروف انگلیسی (a-z) به شما ۴.۷ بیت آنتروپی می دهد؛ یک المان شامل a-z , 0-9 به شما ۵.۲ بیت آنتروپی می‌دهد یک المان شامل a-z , 0-9 و A-Z به شما ۵.۹ و a-zA-Z0-9!@#$%^&amp;:-+ به شما ۶.۲ بیت آنتروپی می دهد. از طرف دیگر یک واژه انگلیسی رندوم به شما فقط ۳.۱...۰.۶ بیت آنتروپی بر هر کارکتر می دهد. استفاده از جملات با‌معنا آنتروپی کمتری به شما می‌دهد استفاده از سری از حروف رندوم به شما آنتروپی بیشتری می دهد. از واژگانی که به شما مرتبط باشد یا در کامپیوترتان یافت می‌شود استفاده نکنید. این‌گونه از حملات امروزه ؛ هر روز انجام می شود. برای آنکه امنیت معقول و قابل قبولی طی ‍۱۰ سال آینده داشته باشد. خوب است که دست بالا را گرفته و از ضریب ۱۰۰۰ استفاده کنید.</strong></p>
+<p><strong>حالا سؤال این است که حمله کننده برای شکستن کد چقدر هزینه می‌کند که این به ارزیابی امنیتی شما بستگی دارد. برای استفاده عمومی من فرض را بر این می‌گذارم که حمله کننده ۱ میلیون دلار یا یورو برای آن هزینه خواهد کرد. پس ما توصیه‌های زیر را در نظر می گیریم:</strong></p>
+<p><strong>لاکس: استفاده از بیش تر از ۶۴ بیت ؛ به عنوان مثال ۱۴ عدد تصادفی از a-z یا یک جمله تصادفی انگلیسی با طولی بیشتر از ۱۰۸ کارکتر.</strong></p>
+<p><strong>اگر به صورت پارانوئیدی در نظر بگیریم حداقل ۲۰ بیت اضافه کنید. که این تقریبن ۴ کاراکتر اضافی برای رمز عبورهای رندوم است و تقریبن ۳۲ کاراکتر برای یک جمله رندوم انگلیسی است.</strong></p>
+<p>اطلاعات بیشتر در آدرس زیر:</p>
+<p><a href="https://gitlab.com/cryptsetup/cryptsetup">https://gitlab.com/cryptsetup/cryptsetup</a></p>
+<p>حال و حوصله حساب و کتاب ندارید؟ درسی که باید یاد بگیرید <strong>طولانی بودن ؛ رندوم بودن و بی‌معنی بودن</strong> است. این موارد به شما آنتروپی بیشتری می دهند. مردم از راه های زیادی استفاده می کنند تا پسوردی بی‌معنی بسازند که در ذهن شان بماند. برای مثال  شما می توانید یکی از جملاتی که در یک فیلم آن را دیده‌اید و از آن لذنت می‌برید را با تاریخی که به یادتان بماند را استفاده کنید مانند مثل:</p>
+<p><strong>“If My Calculations Are Proper, When This Baby Hits 88 Miles Per Hour, You're Going 2 See Some Serious Business! January-1-2013?”</strong></p>
+<p>این یکی از ایمن ترین نوع رمز عبور است که شامل فراوانی آنتروپی زیادی نسبت به چیزیکه برنامه نویس Cryptsetup گفته است.</p>
+<p>برای بحث بیشتر درباره پسورد قوی به آدرس زیر مراجعه کنید:</p>
+<p><a href="https://www.grc.com/haystack.htm">https://www.grc.com/haystack.htm</a></p>
+<p>زمانی که درباره پسورد قویتان تصمیم گرفتید درون بخش <strong>Encryption passphrase</strong> آن را تایپ کنید و Enter کنید.  یادتان باشد در صورتی که این پسورد را از یاد ببرید هر چیزی که بر روی دیسکتان دارید را از دست می‌دهید پس از به خاطر سپردنش اطمینان کامل حاصل کنید چون قابل بازیابی نیست.</p>
+<p><img alt="Photo" src="./pic/2/B/27.png"></p>
+<p>۲۸. در صفحه بعد دوباره پسوردتان را تایپ کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/28.png"></p>
+<p>۲۹. در صفحه بعد <strong>Configure the Logical Volume Manager</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/29.png"></p>
+<p>۳۰. در صفحه بعد <strong>Yes</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/30.png"></p>
+<p>۳۱. در صفحه بعد <strong>Create volume group</strong> را انتخاب و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/31.png"></p>
+<p>۳۲. در صفحه بعد از شما <strong>Volume group name</strong> پرسیده می شود. <strong>Debian-vg</strong> را تایپ کرده و Enter  کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/32.png"></p>
+<p>۳۳. در صفحه بعد از شما خواسته می‌ شود تا پارتیشن های جدیدی انتخاب کنید(Devices for the new volume group).پارتیشن رمزنگاری شده تان را انتخاب کنید که به صورت چیزی شبیه به <strong>dev/mapper/PartitionDeviceName_crypt/</strong> نشان داده می شود. در مثال زیر <strong>dev/mapper/sda5_crypt/</strong> پارتیشن مورد نظر ما هست. با کلید بالا و پایین بر روی آن رفته و کلید Space را بفشارید تا گزینه فعال شود. زمانی که فعالش کردید <strong>*</strong> در باکس ظاهر می شود. سپس Enter کرده و ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/33.png"></p>
+<p>در صفحه بعد گزینه <strong>create logical volume</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/34.png"></p>
+<p>۳۵. در صفحه بعد ٍEnter کنید تا <strong>debian-vg</strong> انتخاب شده و ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/35.png"></p>
+<p>۳۶. در صفحه بعد از ما خواسته می‌شود تا یک <strong>نام برای پارتیشن لوجیکالمان</strong> انتخاب کنیم. تایپ کنید <strong>root‌</strong> و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/36.png"></p>
+<p>۳۷. در صفحه بعد از شما خواسته می شود تا <strong>سایز logical volume</strong> را وارد کنید. اگر شما این سیستم عامل را بر روی کامپیوتری با <strong>رم کمتر از ۲ گیگابایت</strong> نصب می‌کنید نیاز به ساخت <strong>Swap</strong> درست و قابل قبول دارید در غیر این صورت سیستم کار نخواهد کرد. اگر نیاز به یک پارتیشن Swap دارید تقریبن <strong>۲ گیگابایت کاملن خوب</strong> است (اما شما ممکن است نسبت به مقدار رمی که دارید مقدار کمتری را انتخاب کنید.) اگر نیاز به Swap  دارید <strong>مقدار ۲ گیگ را از مقدار پیشفرضی که در این پنجره می‌بینید کم کرده</strong> و مقدار جدید سایز پارتیشن را وارد کنید در مثال زیر مقدار از 63963 به 61963 تغییر می کند.بعد از وارد کردن مقدار جدید Enter کرده و ادامه دهید.</p>
+<p>اگر نیاز به پارتیشن Swap <strong>ندارید</strong> مقدار پیشفرض را قبول کرده و Enter کنید و کار را از <strong>گام ۴۲</strong> ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/37.png"></p>
+<p>۳۸. <strong>این گام را در صورت نیاز به Swap پارتیشن انجام دهید</strong> اگر نیاز به پارتیشن Swap ندارید به <strong>گام ۴۲</strong> بروید. <strong>Create logical volume</strong> را انتخاب کرده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/38.png"></p>
+<p>۳۹. در صفحه بعد Enter کنید تا <strong>debian-vg</strong> انتخاب شده و ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/39.png"></p>
+<p>۴۰. در صفحه بعد به شما پیامی مبنی بر ساخت <strong>logical volume name</strong>  داده می‌شود . تایپ کنید <strong>Swap1</strong> و سپس Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/40.png"></p>
+<p>۴۱. در صفحه بعد <strong>سایز پیشفرض</strong> را به همان صورت قبول کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/41.png"></p>
+<p>۴۲. در صفحه بعد <strong>Finish</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/42.png"></p>
+<p>۴۳. در صفحه بعد گزینه دیگر مطابق تصویر زیر برای <strong>LVM VG debian-vg, LV root</strong> می بینبد. گزینه ای که در زیر نشان داده شده را انتخاب و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/43.png"></p>
+<p>۴۴. در صفحه بعد گزینه <strong>Use as: do not use</strong>  را انتخاب کزده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/44.png"></p>
+<p>۴۵. در صفحه بعد <strong>Ext4 journaling file system</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/45.png"></p>
+<p>۴۶. در صفحه بعد <strong>Mount point: none</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/46.png"></p>
+<p>۴۷. در صفحه بعد <strong>- the root file system/</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/47.png"></p>
+<p>۴۸. در صفحه بعد <strong>Done setting up the partition</strong>  را انتخاب کرده Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/48.png"></p>
+<p>۴۹. <strong>در صورتی به انجام این گام نیاز دازید که یک Logical volume برای Swap‌ ساخته باشید</strong>.اگر یک <strong>Logical volume</strong> برای <strong>Swap‌</strong> نساخته اید به <strong>گام ۵۳</strong> بروید. اگر Logical volume برای فضای Swap ساخته باشید همچنین گزینه ای به نام <strong>LVM VG debian-vg, LV swap1</strong> را خواهید دید . گزینه را چنان که در تصویر زیر مشاهده می‌کنید انتخاب کرده و Enter‌کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/49.png"></p>
+<p>۵۰.  در صفحه بعد گزینه <strong>Use as: do not use</strong> را انتخاب و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/50.png"></p>
+<p>۵۱. در صفحه بعد <strong>Swap area</strong> را انتخاب کرده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/51.png"></p>
+<p>۵۲. در صفحه بعد گزینه <strong>Done setting up the partition</strong> را انتخاب کرده و Enter‌کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/52.png"></p>
+<p>۵۳. در صفحه بعد گزینه <strong>Finish partitioning and write changes to disk</strong> را انتخاب کرده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/53.png"></p>
+<p>۵۴. اگر تصمیم گرفتید که به پارتیشن Swap <strong>نیاز ندارید</strong> در صفحه بعد به شما پیامی می‌دهد که که هیچ پارتیشنی برای فضای Swap‌ انتخاب نکرده‌اید و از شما می‌پرسد که آیا می‌خواهید به منوی پارتیشن برگردید. گزینه <strong>No</strong> را انتخاب کرده و Enter‌ کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/54.png"></p>
+<p>۵۵. در صفحه بعد از شما می‌پرسد <strong>آیا می‌خواهید تغییرات بر روی دیسک ذخیره شود</strong>. گزینه <strong>Yes</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/55.png"></p>
+<p>۵۶. در صفحه بعد نوار پیشرفتی را می‌بینید که نصب پایه‌ای سیستم را نشان می دهد. این بخش ممکن است مدتی طول بکشد. زمانیکه تمام شد پیامی به شما نشان می‌دهد که <strong>Debian archive mirror country</strong> را انتخاب کنید. یکی از گزینه ها احتمالن به صورت پیشفرض بر اساس موقعیت مکانی که به تازگی مشخص کرده‌اید انتخاب شده است. در صورتیکه به درستی انتخاب نشده موقعیت درست را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/56.png"></p>
+<p>۵۷. در صفحه بعد از شما خواسته می‌شود تا سرور <strong>Debian archive mirror</strong> را انتخاب کنید.دوباره می‌توانید چیزی که سیستم انتخاب کرده را به همان صورت پیشفرض قرار داده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/57.png"></p>
+<p>۵۸. در صفحه بعد از شما پرسیده می‌شود که آیا برای دسترسی به اینترنت نیاز به پراکسی دارید؟ اگر جواب را نمی‌ دانید نیازی نیست برای وصل شدن به اینترنت حتمن از پراکسی استفاده کنید پس Enter کرده و ادامه دهید.</p>
+<p><img alt="Photo" src="./pic/2/B/58.png"></p>
+<p>۵۹. در ادامه نصاب وارد پروسه <strong>configuring apt</strong> شده و نرم افزارهای متفاوتی را نصب می کند. در ادامه از شما پرسیده می‌شود که آیا میخواهید <strong>participate in the package usage survey</strong>. شما <strong>No</strong> را انتخاب کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/59.png"></p>
+<p>۶۰.  در ادامه نصاب چند کار دیگر را انجام می‌دهد سپس به شما پیام <strong>Choose software to install</strong> را نشان می دهد. شما فقط نیاز به نصب <strong>Debian Desktop Environment</strong> و <strong>Standard System Utilities</strong> را داربد. بقیه گزینه ها را با فلش بالا و پایین جابجا کنید تا گزینه <strong>هایلایت شده و Space</strong> را بفشارید. زمانی که '*' ناپدید شد آیتم از حالت انتخاب در آمده است. زمانی که صفحه شما چیزی شبیه به تصویر زیر شد Enter کرده و ادامه دهید.</p>
+<p><strong>نکته:</strong> اگر میخواهید از سیستم عامل دبیانتان <strong>چیزی پرینت</strong> کنید گزیته <strong>Print server</strong> را به همان صورت انتخاب شده رها کنید. اگرچه در صورتی که نمی‌خواهید چیزی پرینت کنید نیازی به انتخاب این گزینه نیست.</p>
+<p><img alt="Photo" src="./pic/2/B/60.png"></p>
+<p>۶۱. نصاب حالا شروع به بازیابی و نصب فایلها می کند. این پروسه ممکن است زمان زیادی ببرد؛ در نهایت پروسه نصب <strong>گراب بوت لودر</strong> آغاز می شود. اگر گراب دیگر سیستم‌های عامل را شناسایی کند؛ ممکن است به صفحه‌ای هدایت شوید که از شما می‌پرسد <strong>install the GRUB boot loader to the master boot record</strong> در این حالت <strong>No</strong> را انتخاب کرده و Enter  کنید.اگر چنین صفحه‌ای را <strong>ندیدید</strong> ادامه دهید و به <strong>گام بعد</strong> بروید.</p>
+<p><img alt="Photo" src="./pic/2/B/61.png"></p>
+<p>۶۲. در صفحه بعد از شما پرسیده می‌شود آیا می خواید <strong>Install the GRUB boot loader on a hard disk</strong>. در <strong>گام دوم</strong> از این بخش به شما گفته شده بود که از نام فلش درایوی که می‌خواهید که دبیانتان را در آن نصب کنید یاداشت بردارید مثالی که در ابن آموزش از آن استفاده شده <strong>sdc</strong> بود. نام درایو فلشتان را که دبیان را نصب کرده‌اید را انتخاب کرده و Enter کنبد.</p>
+<p><img alt="Photo" src="./pic/2/B/62.png"></p>
+<p>۶۳.  حالا پروسه نصب رو به پایان می رود. ممکن است با صفحه روبرو شوید که می‌پرسد: <strong>The system clock is set to UTC</strong> شما گزینه <strong>No</strong> را انتخاب کرده و Enter کنید. اگر این صفحه را ندیدید به مرحله بعد بروید.</p>
+<p><img alt="Photo" src="./pic/2/B/63.png"></p>
+<p>۶۴. نهایتن پیامی حاوی اتمام فرآیند نصب را نمایش می دهد. دیسک نصب دبیان را جدا کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/64.png"></p>
+<p>۶۵. نصاب کامپیوتر را ریبوت می کند. در حین ری استارت باید وارد <strong>منوی بوت</strong> شوید چنان که در <strong>گام ۱ از فصل اول  بخش – د</strong> گفته شده است. زمانی که شما منوی بوت را فعال کردید فلش درایوتان را که بر روی آن دبیان را نصب کرده‌اید انتخاب کنید. نهایت از شما خواسته می‌شود که یک گزینه برای <strong>بوت</strong> انتخاب کنید . به صورت <strong>پیشفرض بر روی دبیان</strong> است در این حالت شما می توانید Enter کنید یا آنکه منتظر بمانید تا تایمر تمام شده و خودش وارد شود. تصویر نمونه زیر ممکن است دقیقن مانند تصویر شما نباشد. اما اصاصن یکی هستند.</p>
+<p><strong>نکته: اگر در این گام فرآیند نصب زمان زیادی از شما گرفته شده و وقت کافی ندارید می‌توانید کامپیوتر را خاموش کرده و مانده فرآیند نصب را به بعد بسپارید.</strong></p>
+<p><img alt="Photo" src="./pic/2/B/65.png"></p>
+<h3>نکته برای اشکال یابی: اگر پس از ورود به بوت فلشتان واردگراب (شبیه تصویر بالا) نشدید و صفحه‌ای سیاه یا تصویر با پرش  نشانگر موس دیدید؛ وارد پیوست ایت فصل شوید.احتمالن با یک اشکال بسیار معمول که شامل گراب و دبیان می‌شود روبرو شده اید. تعمیرش نسبتن آسان است.</h3>
+<p>۶۶. در صفحه بعد از شما <strong>پسورد</strong> خواسته می‌شود <strong>(Enter passphrase)</strong>. این همان پسوردی است که شما در <strong>گام ۲۷</strong> ساخته اید. هنگام تایپ پسورد هیچ سمبلی بر روی صفحه نمایش مشاهده نمی‌کنید شاید این قضیه کمی عجیب به نظر برسد اما به دلایل امنیتی است اگر کسی در حال مشاهده صفحه باشد نمی‌تواند به طول پسوردتان پی ببرد. پسورد خود را تایپ کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/66.png"></p>
+<p>۶۷. حالا دبیان شروع به پردازش بوت کرده و در نهایت پنجره ورود را مشاهده می کنید. زمانی که پنجره ورود را دیدید Enter کنید یا بر روی <strong>User</strong> کلیک کنید. </p>
+<p><img alt="Photo" src="./pic/2/B/67.png"></p>
+<p>۶۸. در صفحه بعد از شما پسورد خواسته میشود. قبل از آنکه پسوردتان را تایپ کنید بر روی <strong>آیکون چرخ دنده</strong> در کنار <strong>Sign In</strong> کلیک کرده و <strong>GNOME Classic</strong> را انتخاب کنید. حال <strong>پسورد user که در گام ۱۳ از فصل ۱ بخش – د درست کرده اید</strong> را وارد کرده و Enter‌ کنید.دبیان تا زمانی که از گزینه ی دیگری استفاده نکنید از GNOME Classic استفاده خواهد کرد.</p>
+<p><img alt="Photo" src="./pic/2/B/68.png"></p>
+<p>۶۹. زمانی که وارد دسکتاپ دبیان شدید بر روی <strong>Applications</strong> در <strong>بالا گوشه سمت چپ</strong> کلیک کرده و سپس <strong>Utilities</strong> را انتخاب کنید و سپس اسکرول کرده و <strong>Terminal</strong> را انتخاب کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/69.png"></p>
+<p>۷۰. یک پنجره ترمینال باز خواهد شد. تایپ کنید <strong>sudo -i</strong> تا دسترسی <strong>root</strong> را بدست بیاورید. زمانی که با دستور sudo فرمانی را از نوع root اجرا می‌کنید آن دستورات به سطح <strong>دسترسی کابر ریشه ( کاربر اصلی که مدیریت کامل سیستم را در دست دارد)</strong> اجرا می شوند. از شما پسوردتان خواسته می‌شود این <strong>همان پسوردیست که شما برای user در گام ۱۳ از فصل ۱ بخش – د</strong> وارد کرده اید. پسوردتان را وارد کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/70.png"></p>
+<p><strong>نکته:</strong> هر زمانی که از این دستور استفاده می کنید تا زمانی که از نشست خارج شوید دسترسی کامل سطح ادمین رادارید. پس زمانی که در نشستتان خواستید از این دستور استفاده کنید <strong>بسیار مراقب</strong> باشید. تغییراتی که ایجاد می‌کنید می‌تواند باعث <strong>تخریبی ماندگار</strong> شود .</p>
+<p>۷۱. حال در ترمینال باید کاربر ارشد یا <strong>Super User</strong> باشید که در برنامه ترمینال به صورت root نشان داده می شود. حالا نیاز به ساخت فایل کلید دارید تا در آینده بتوانید هاردتان را باز کنید. دستور زیر رادر ترمینال تایپ کنید:</p>
+<p><code>dd if=/dev/urandom of=/keyfile bs=512 count=16</code></p>
+<p>این دستور یک <strong>فایل کلید ۸ کیلوبایتی</strong> از داده‌های <strong>شبه رندوم</strong> درست می کند. زمانی که پروسه آماده سازی فایل کلید تمام شد مکان نما ظاهر میشود.</p>
+<p><strong>نکته:</strong> اگر تمایل به Copy و Paste کردن دستورات در ترمینال سیستم عامل دبیان  در طول این آموزش دارید. هر چیزی را که از این آموزش کپی کردید با دستور <strong>CTRL+SHIFT+V</strong> در ترمینال Paste کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/71.png"></p>
+<p>۷۲. زمانی که <strong>فایل کلید ساخته شد</strong> حالا می‌توانید فایل <strong>etc/crypttab/</strong> را ویرایش کنید. این فایلی است که به دبیان می‌گوید هنگام بوت چگونه درایو رمزشده را بررسی کند و در دست بگیرد. در ترمینال خود تایپ کنید:</p>
+<p><code>nano /etc/crypttab</code></p>
+<p><img alt="Photo" src="./pic/2/B/72.png"></p>
+<p>۷۳. حالا باید یک خط موجود در فایل etc/crypttab/ را ویرایش کنید تا بتوانید فایل کلید رمزنگاریتان را بکار ببرید.زمانی که فایل etc/crypttab/ را باز کردید چیزی شبیه به تصویر زیر می بینید</p>
+<p><img alt="Photo" src="./pic/2/B/73.png"></p>
+<p>از بخشی که در مثال بالا با نام <strong>sda5_crypt</strong> است <strong>یاداشت بردارید</strong>.  Sda5 نام پارتیشن هارد درایو رمزنگاری شده است. ممکن است برخی از چیزها در کامپیوتر شما متفاوت باشد( مثلن: sda6 به جای sda5) شما به اطلاعات این فایل برای <strong>گام های ۷۳ و ۸۴</strong> نیاز دارید.</p>
+<p>نشانکر مکانما را با فلش راست به انتهای راست هدایت کنید و با کلید <strong>Backspace</strong> ؛ <strong>none luks</strong> را پاک کرده و دستور زیر رابه آن اضافه کنید:</p>
+<p><code>/boot/keyfile.gpg   luks,keyscript=/lib/cryptsetup/scripts/decrypt_gnupg</code></p>
+<p><img alt="Photo" src="./pic/2/B/74.png"></p>
+<p>کلید <strong>CTRL و X</strong> را همزمان بگیرید. زمانی که پیام <strong>save modified buffer</strong> را دیدید تایپ کنید <strong>y</strong> .</p>
+<p><img alt="Photo" src="./pic/2/B/75.png"></p>
+<p>زمانی که پیام <strong>File Name to Write: /etc/crypttab</strong> را مشاهده کردید Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/76.png"></p>
+<p>۷۴. حالا نوبت آن است که فایل کلید خود را به <strong>حلقه کلید (Keyring)؛ LUKS</strong> اضافه کنید. شما به نام درایوی که در <strong>گام ۷۲</strong> گفته شد تا از آن یاداشت بردارید برای هارد درایو رمز شده تان نیاز پیدا می‌ کنید. در مثال اینجا درایو  sda5 می باشد. دستور زیر را در ترمینال تایپ کرده و Enter کنید:</p>
+<p><code>cryptsetup luksAddKey /dev/YourDeviceName /keyfile</code></p>
+<p>زمانی که پیام <strong>Enter any passphrase</strong> مشاهده شد <strong>پسوردی که برای درایو رمزنگاری شده تان از گام ۲۷ در این بخش</strong> ساخته‌اید را وارد و Enter کنید. اگر پروسه موفقیت آمیز باشد دوباره به <strong>Command prompt</strong> باز می گردید.</p>
+<p><img alt="Photo" src="./pic/2/B/77.png"></p>
+<p>۷۵.حالا نیاز به رمزنگاری فایل کلید خود با <strong>gpg</strong> دارید. دستور زیر را در ترمینال تایپ کرده و Enter کنید.</p>
+<p><code>gpg -c --cipher-algo AES256 /keyfile</code></p>
+<p>زمانی که پیام رمز خود را وارد کنید داده شد <strong>(Enter passphrase)</strong>, <strong>پسوردی را که در گام ۲۷ از این بخش</strong> انتخاب کردید را وارد کنید یا <strong>پسوردی جدید به همان اندازه طولانی و رندوم</strong> را انتخاب کنید. زمانیکه پیام داد شد دوباره پسورد خود را وارد کنید تا تأیید شود که هر دوبار به درستی وارد شده است. حال <strong>این پسوردی خواهد بود که هنگام بوت شدن دبیانتان در آینده</strong> باید وارد کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/78.png"></p>
+<p>اگر همه چیز به درستی انجام شده باشد به صفحه ترمینال بدون هیچ خطایی باز می گردید.</p>
+<p>۷۶.  در ادامه تایپ کنید <strong>mv /keyfile.gpg /boot/keyfile.gpg</strong> و سپس Enter کنید. این کار <strong>یک کپی از فایل کلید رمزنگاریتان</strong> را به <strong>فلش درایو کلید بوتتان</strong> انتقال میدهد تا اگر در آینده به آن نیاز داشتید از آن استفاده کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/79.png"></p>
+<p>۷۷. حالا نیاز به آپدیت پروسه بوت دارید تا بتوانید از کلید رمزنگاریتان استفاده کنید. تایپ کنید <strong>update-initramfs -u</strong> و سپس Enter کنید. اگر همه چیز بدرستی پیش برود بدون خطا به Command Prompt باز خواهید گشت و در صفحه نمایشتان باید چیزی شبیه تصویر زیر را ببینید. درباره هشدار زیر نگران نباشید:</p>
+<p><strong>Warning: GnuPG key /boot/keyfile.gpg is copied to initramfs</strong></p>
+<p>این اتفاق باید می افتاد.</p>
+<p><img alt="Photo" src="./pic/2/B/80.png"></p>
+<p>۷۸. حالا نوبت ریستارت کامپیوتر است بر روی <strong>ناحیه بالا گوشه سمت راست Desktop</strong> کامپیوترتان که گزینه های شبکه ؛ Speaker و باتری و فلش سمت پایین در آن وجود دارد کلیک کرده و بر روی کلید <strong>Power</strong> که در تصویر زیر مشاهده می‌کنید کلیک کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/81.png"></p>
+<p>در پنجره زیر که ظاهر می‌شود بر روی <strong>Restart</strong> کلیک کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/82.png"></p>
+<p>۷۹. بعد از آن که که کامپیوترتان ریستارت شد نیاز است که دوباره به <strong>منوی بوت</strong> بروید <strong>چنان که در گام ۱ از فصل یکم بخش – د</strong> گفته شد. زمانیکه منوی بوتتان را فعال کردید فلش درایوتان را که بر روی آن دبیان را نصب کردید انتخاب کنید. نهایتن پیامی به شما داده می شود تا <strong>یک گزینه بوت</strong> را انتخاب کنید. <strong>به صورت پیشفرض بر روی دبیان تنظیم شده</strong> است و شما میتوانید یا Enter کنید یا آنکه منتظر بمانید تا تایمر تمام شده و به صورت اتوماتیک وارد شود.</p>
+<p><img alt="Photo" src="./pic/2/B/83.png"></p>
+<p>۸۰. نهایتن از شما خواسته می‌شود که پسوردتان را وارد کنید <strong>پسوردی را که در گام ۷۴ از این فصل</strong> انتخاب کردید وارد کنید و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/84.png"></p>
+<p>۸۱. حالا دبیان وارد پروسه بوت خواهد شد سپس شما صفحه ورود را خواهید دید در این صفحه یا Enter کنید با بر روی <strong>User</strong> کلیک کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/85.png"></p>
+<p>۸۲. در صفحه بعد از شما پسوردتان خواسته می‌شود <strong>پسوردیکه برای user در گام ۱۳ از فصل ۱ بخش – د ساختید</strong> را وارد کرده و Enter کنید یا بر روی <strong>Sign in</strong> کلیک کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/86.png"></p>
+<p>۸۳. وقتی وارد دسکتاپ دبیان شدید بر روی <strong>Applications</strong> که <strong>در بالا گوشه سمت چپ</strong> قرار دارد کلیک کنید و سپس <strong>Utilities</strong> را انتخاب کنید و <strong>Terminal</strong> را انتخاب کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/87.png"></p>
+<p>۸۴.  یک پنجره ترمینال باز خواهد شد. تایپ کنید <strong>sudo -i</strong> تا دسترسی <strong>root</strong> را بدست بیاورید. زمانی که با دستور sudo فرمانی را از نوع root اجرا می‌کنید آن دستورات به سطح <strong>دسترسی کابر ریشه ( کاربر اصلی که مدیریت کامل سیستم را در دست دارد)</strong> اجرا می شوند. از شما پسوردتان خواسته می‌شود این همان <strong>پسوردیست که شما برای user در گام ۱۳ از فصل ۱ بخش – د</strong> وارد کرده اید. پسوردتان را وارد کرده و Enter کنید.</p>
+<p><img alt="Photo" src="./pic/2/B/88.png"></p>
+<p><strong>نکته:</strong> هر زمانی که از این دستور استفاده کنید تا زمانی که از نشست خارج شوید دسترسی کامل سطح ادمین رادارید. پس زمانی که در نشستتان خواستید از این دستور استفاده کنید <strong>بسیار مراقب</strong> باشید. تغییراتی که ایجاد می‌کنید می‌تواند باعث <strong>تخریب ماندگار</strong> شود .</p>
+<p>۸۵. در ادامه شما نیاز دارید تا نخستین پسوردی که برای پارتیشن هارد درایو رمزشده تان در <strong>گام ۲۷ از این بخش</strong> ساختید را <strong>پاک کنید</strong>. سیستم رمزنگاری <strong>LUKS</strong> از چیزی که آن را کلیدحلقه ای؛ (Keyring) می‌گویند استفاده می کند. در حال حاضر شما <strong>دو کلید</strong> در حلق رمزتان دارید: یکی شامل پسوردی که شما در زمان نصب دبیان در گام ۲۷ از این بخش استفاده کردید می‌شود و یکی دیگر شامل فایل کلیدی که ساخته و به کلید حلقه در گام های ۶۷-۷۳  از این بخش اضافه کردید می شود.</p>
+<p>پاک کردن پسوردی که شما در گام ۲۷ ساخته‌اید این معنی را می‌دهد که که <strong>فایل کلیدتان تنها کلیدی است که می‌تواند هارد درایو رمزشده تان را باز کند</strong>. این کار باعث <strong>امنیت بسیار زیادی</strong> می‌شود چرا که شما <strong>هرگز</strong> از محتویات فایل کلید با خبر نخواهید شد. به عنوان یک انسان به خاطر سپردن ۴۰۹۶  بایت از کارکترهای رندوم نامحتمل است. اگرچه اگر شما فلش درایو کلید بوتتان را گم یا نابود کنید اطلاعات روی هارد درایوتان غیر قابل بازیابی خواهد بود. توجه داشته باشید در اینجا نام فلش  درایو برای رمزنگاری هارد درایوتان همان نامی است که در <strong>گام ۷۲</strong> به شما گفته شد از آن یاداشت برداربد. در این مورد sda5 نام درایو است. فرمان زیر را وارد کرده و Enter کنید:</p>
+<p><code>cryptsetup luksKillSlot /dev/YourDeviceName 0 --key-file /keyfile</code></p>
+<p>در صورتی که فرآیند موفق آمیز بود بدون هیچ خطایی به command prompt باز می گردبد.</p>
+<p><img alt="Photo" src="./pic/2/B/89.png"></p>
+<p>۸۶. حالا نوبت آن است که به طور ایمن فایل کلید <strong>رمزنشده تان</strong> را از هارد درایوتان جدا کنید. این کار بیشتر باعث می شود خطر حمله ی احتمالی که تا به حال کشف شده است را به حداقل برساند. اگر هرقت نیاز به دسترسی به فایل کلید <strong>رمزنگاری نشده تان</strong> در آینده داشتید یادتان باشد که شما یک ورژن <strong>رمزنگاری شده</strong> از آن را در کلید بوتتان که با نام  <strong>keyfile.gpg</strong> ذخیره شده است را دارید. تایپ کنید <strong>shred -n 30 -uvz /keyfile</strong> و Enter کنید. زمانی که پروسه تمام شد تایپ کنید <strong>exit</strong> و enter کنید یا با کلیک بر روی <strong>X</strong> در <strong>بالا گوشه سمت راست</strong> صفحه را ببندید.</p>
+<p><img alt="Photo" src="./pic/2/B/90.png"></p>
+<p>شادباش می‌گویم. شما مسیر طولانی پروسه نصب دبیان بر روی یک هارد درایو رمزنگاری شده همراه با یک کلید بوت یو اس بی ایمن را به پایان رساندید.
+برای انجام گام های پایانی نصب دبیان و هونیکس وارد <strong>فصل سوم</strong> شوید.</p>
+                </div><!-- /.entry-content -->
+        </article>
+
+        <hr />
+
+</section>
+        </div><!--/span-->
+
+                <div class="span3 well sidebar-nav" id="sidebar">
+<ul class="nav nav-list">
+
+<li class="nav-header"><h4><i class="icon-external-link"></i>معرفی</h4></li>
+    <li><a href="./pages/about" >درباره</a></li>
+    <li><a href="./pages/downloads">دانلود</a></li>                
+    <li><a href="./pages/support">پشتیبانی</a></li>
+    
+
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
+
+<li>
+<a href="./chapter-00.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل صفر</span>
+</a>
+</li>
+<li>
+<a href="./chapter-01.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل یک</span>
+</a>
+<li>
+<a href="./chapter-01-1.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-الف
+</a>
+</li>
+<li>
+<a href="./chapter-01-2.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-ب
+</a>
+</li>
+<li>
+<a href="./chapter-01-3.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-ج
+</a>
+</li>
+<li>
+<a href="./chapter-01-4.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-د
+</a>
+</li>
+<li>
+<a href="./chapter-02.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل دوم</span>
+</a>
+<li>
+<a href="./chapter-02-1.html">
+    <i class="icon-folder-open"></i>فصل دوم بخش-الف
+</a>
+</li>
+<li>
+<a href="./chapter-02-2.html">
+    <i class="icon-folder-open"></i>فصل دوم بخش-ب
+</a>
+</li>
+<li>
+<a href="./chapter-02-P.html">
+    <i class="icon-folder-open"></i>فصل دوم پیوست
+</a>
+</li>
+</li>
+
+
+</ul>        </div><!--/.well -->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <address id="about">
+                ساخته شده با <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                                که خود از <a href="http://python.org">Python <i class="icon-external-link"></i></a> قدرت می‌گیرد.
+        </address><!-- /#about -->
+
+        <address>این کتابچه توسط <a>فرزین<i class="icon-external-link"></i></a> منتشر شده و
+                   هر شکلی از تکثیر مجدد آن با ذکر نام و لینک اصلی مجاز است.</address>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./theme/js/jquery-1.7.2.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>فصل یکم بخش ج</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="فرزین">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css" />
+    <!--link rel="stylesheet" href="./theme/css/bootstrap-rtl.css" type="text/css" /-->
+    <link href="./theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="./theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./theme/images/apple-touch-icon-114x114.png">
+
+    <link href="./" type="application/atom+xml" rel="alternate" title="راهنمای آسان نصب و استفاده از سیستم عاملی ناشناس و امن برای تازه کاران ATOM Feed" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="./index.html">راهنمای آسان نصب و استفاده از سیستم عاملی ناشناس و امن برای تازه کاران </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+                <li><a href="./pages/about">درباره</a></li>
+                <li><a href="./pages/downloads">دانلود</a></li>                
+                <li><a href="./pages/support">پشتیبانی</a></li>
+                
+                          <!--ul class="nav pull-right">
+                                <li><a href="./archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                          </ul-->
+
+            </ul>
+            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="span9" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to فصل یکم بخش ج">
+                                        فصل یکم بخش ج
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <!--div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2018-05-19T00:00:00+04:30">
+        <i class="icon-calendar"></i>Sat 19 May 2018
+</abbr>
+<span class="label">By</span>
+<a href="./author/frzyn.html"><i class="icon-user"></i>فرزین</a>
+<span class="label">Category</span>
+<a href="./category/chapters.html"><i class="icon-folder-open"></i>chapters</a>.
+
+
+</footer><!-- /.post-info -->                </div-->
+                <h2>دانلود دستی و آماده کردن دبیان بر روی Ubuntu</h2>
+<hr>
+<p>۱. در ابتدا یک <strong>شل ترمینال</strong> را باز کنید برای اینکار بر روی <strong>Dash اوبونتو</strong> که در <strong>سمت چپ و بالای صفحه</strong> قرار دارد کلیک کنید.</p>
+<p><img alt="Photo" src="./pic/1/C/01.png"></p>
+<p>۲. زمانی که ترمینال باز شد در آن <strong>کلید امضای CD دبیان</strong> را وارد کنید:</p>
+<p><code>gpg --keyserver hkp://hkps.pool.sks-keyservers.net --recv-keys DF9B9C49EAA9298432589D76DA87E80D6294BE9B</code></p>
+<p><img alt="Photo" src="./pic/1/C/02.png"></p>
+<p>اگر عملیات موفق آمیز بود خروجی چیزی شبیه تصویر زیر خواهد بود.</p>
+<p><img alt="Photo" src="./pic/1/C/03.png"></p>
+<p>۳. حالا نوبت تأیید <strong>اثر انگشت کلید امضای سی دی دبیان</strong> است. تایپ کنید:</p>
+<p><code>gpg --fingerprint DF9B9C49EAA9298432589D76DA87E80D6294BE9B</code></p>
+<p><img alt="Photo" src="./pic/1/C/04.png"></p>
+<p>خروجی باید چیزی شبیه به تصویر زیر باشد اگر نبود مرحله دوم را از ابتدا شروع کنید.</p>
+<p><img alt="Photo" src="./pic/1/C/05.png"></p>
+<p>۴. حالا نوبت دانلود <strong>ISO نصاب دبیان</strong> است.</p>
+<p>اگر پردازشگر شما ۳۲ بیتی بود یا ۴ گیگ یا کمتر رم داشتید تایپ کنید:</p>
+<p><code>wget -c https://cdimage.debian.org/mirror/cdimage/archive/7.11.0/i386/iso-cd/debian-7.11.0-i386-netinst.iso</code></p>
+<p>وenter کنید.</p>
+<p><img alt="Photo" src="./pic/1/C/06.png"></p>
+<p>اگر پردازشگر شما ۶۴ بیتی بود دستور زیر را تایپ و Enter کنید:</p>
+<p><code>wget -c https://cdimage.debian.org/mirror/cdimage/archive/7.11.0/amd64/iso-cd/debian-7.11.0-amd64-netinst.iso</code></p>
+<p><img alt="Photo" src="./pic/1/C/07.png"></p>
+<p>۵. حالا نوبت دانلود <strong>Checksum</strong> فابل می‌باشد تا تأیید کند که فایل ISO نصاب دبیان که شما دانلود کرده‌اید <strong>دستکاری یا خراب</strong> نشده است.</p>
+<p>اگر شما ورژن مربوط به پردازشگرهای ۳۲ بیتی را دانلود کرده‌اید پس دستور زیر را تایپ و Enter کنید:</p>
+<p><code>wget https://cdimage.debian.org/mirror/cdimage/archive/8.7.0/i386/iso-cd/SHA512SUMS</code></p>
+<p><img alt="Photo" src="./pic/1/C/08.png"></p>
+<p>اگر شما ورژن مربوط به پردازشگرهای ۳۲ بیتی را دانلود کرده‌اید پس دستور زیر را تایپ و Enter کنید:</p>
+<p><code>wget https://cdimage.debian.org/mirror/cdimage/archive/8.7.0/amd64/iso-cd/SHA512SUMS</code></p>
+<p><img alt="Photo" src="./pic/1/C/09.png"></p>
+<p>۶. حالا <strong>فایل امضای GPG</strong> را دانلود کنید. تا تأیید کند که Checksum دبیان دستکاری نشده باشند.</p>
+<p>اگر شمافایل Checksum پردازشگر ۳۲ بیتی را از مرحله قبل انتخاب کردید پس دستور زیر را تایپ و Enter کنید.</p>
+<p><code>wget https://cdimage.debian.org/mirror/cdimage/archive/8.7.0/i386/iso-cd/SHA512SUMS.sign</code></p>
+<p><img alt="Photo" src="./pic/1/C/10.png"></p>
+<p>اگر شمافایل Checksum پردازشگر ۳۲ بیتی را از مرحله قبل انتخاب کردید پس دستور زیر را تایپ و Enter کنید.</p>
+<p><code>wget https://cdimage.debian.org/mirror/cdimage/archive/8.7.0/amd64/iso-cd/SHA512SUMS.sign</code></p>
+<p><img alt="Photo" src="./pic/1/C/11.png"></p>
+<p>۷. حالا نوبت تأیید فابل <strong>Hash checksum</strong> که برای تأیید ISO دبیان استفاده می‌شود است. پس دستور زیر را تایپ و Enter کنید.</p>
+<p><code>gpg -v SHA512SUMS.sign</code></p>
+<p><img alt="Photo" src="./pic/1/C/12.png"></p>
+<p>خروجی دستور بالا باید چیزی شبیه به تصویر  زیر با پیام <strong>good signature</strong> هرچند در صورتی که خروجی به صورت <strong>Bad signature</strong> بود دانلود شما یا <strong>فایل کلیدتان خراب یا دستکاری</strong> شده است در صورت گرفتم پیام <strong>Bad</strong> همه چیز را از <strong>گام ۵</strong> دوباره شروع کنید.</p>
+<p><strong>توجه:</strong> شما می‌توانید <strong>warning</strong> با عنوان <strong>key is not certified</strong> را نادیده بگیرید. این هشدار مربوط به موضوع ما نمی شود.</p>
+<p><img alt="Photo" src="./pic/1/C/13.png"></p>
+<p>۸. حالا تأیید کنید که ISO دبیان خراب یا دستکاری شده <strong>نیست.</strong> دستور زیر را تایپ و Enter کنید:</p>
+<p><code>- cat SHA512SUMS |grep netinst |sha512sum -c</code></p>
+<p><strong>نکته:</strong> سمبلی که در بالا به شکل <strong>یک خط عمودیست</strong> کارکتر <strong>pipe</strong> نام دارد. بر روی کیبورد به صورت یک خط عمودیست که با نگه داشتن کلید <code>shift</code> و کلید <code>\</code>  که در <strong>بالای Enter</strong> قرار دارد به آن دسترسی خواهید داشت.</p>
+<p><img alt="Photo" src="./pic/1/C/14.png"></p>
+<p>شما باید نتیجه <strong>فایل OK</strong> را دریافت کنید چنان که در تصویر زیر مشاهده می‌کنید در غیر اینصورت ISO دبیان شما دستکاری یا خراب شده است در صورتی که فایل ISO دبیان این مرحله را پاس نکرد <strong>دوباره فایل را دانلود کرده و از گام ۴</strong> شروع کنید</p>
+<p><img alt="Photo" src="./pic/1/C/15.png"></p>
+<p><strong>توجه: اگر می‌خواهید فایل ISO را بر روی CD/DVD رایت کنید پس اینکار را انجام داده و  به بخش – د بروید . ادامه این راهنما برای کسانیست که می‌خواهند فایل ISO نصاب دبیان را بر روی فلش درایو قابل بوت بریزند.</strong></p>
+<p>۹.  در ادامه تایپ کنید <strong>df -h</strong> و Enter کنید. از خروجی که بر روی صفحه نمایش ظاهر می‌شود را در جایی یاداشت کنید و توجه کنید که خروجی باید چیزی شبیه به تصویر زیر باشد.</p>
+<p><img alt="Photo" src="./pic/1/C/16.png"></p>
+<p>۱۰. حالا فلشی که می خواهید در آن نصاب را بریزید به سیستم وصل کنید و در صورتی که فلش به صورت اتوماتیک باز نشد بر روی <strong>آیکون درایو</strong> آنکه در <strong>لانچر نرم‌افزار</strong> ظاهر می‌شود کلیک کنید. حال برای شناسایی اسم یو اس بی فلشتان در ترمینال تایپ کنید <strong>df -h</strong>  و Enter کنید. یو اس بی شما که قبلن نمایش داده نشده بود اکنون باید قابل مشاهده باشد. احتمالن نامی شبیه به <strong>dev/sdb1/</strong> خواهد داشت . هرچند این نام ممکن است نسبت به تنظیمات سیستمتان متفاوت باشد از این اطلاعات <strong>یاداشت بردارید</strong>.</p>
+<p><img alt="Photo" src="./pic/1/C/17.png"></p>
+<p>۱۱. حال فلشتان را <strong>unmount</strong> کنیدبرای اینکار تایپ کنید <strong>sudo umount /dev/sdX1</strong> و Enter کنید احتمالن از شما <strong>پسوردتان</strong> رابخواهد.</p>
+<p><strong>نکته:</strong> sudo umount /dev/sdX1 مثالی از نام فلشتان است که در بخش قبل یادداشت کرده اید. در تصویر زیر <strong>dev/sdb1/</strong> <strong>مثالی</strong> از USB فلش است پس شما باید /dev/sdX1 را با <strong>نام فلش درایو خودتان</strong> عوض کنید.</p>
+<p><img alt="Photo" src="./pic/1/C/18.png"></p>
+<p>۱۲. حال نوبت نصب؛ نصاب دبیان بر روی فلش شماست</p>
+<p><strong>توجه: در این گام تمام اطلاعات فلش هدف پاک خواهد شد پس اگر اطلاعاتی بر روی فلاشتان دارید از اطلاعات پک آپ بگیرید در نهایت حواستان باشد که یو اس بی درایو (همون فلش ) درست را انتخاب کنید.</strong></p>
+<p>اگر فایل دانلودیتان ۳۲ یا ۶۴ بیت است نوع آن را در جایی از دستور زیر که <code>*‍</code> زده شده مشخص کنید و بعید از تایپ دستور زیر Enter کنید.</p>
+<p><code>for f in debian-*-netinst.iso; do sudo dd if=$f of=/dev/sdX bs=4M; sync; done</code></p>
+<p><strong>نکته:</strong> /dev/sdX مثالی از یو اس بی فلاشی که در مراحل قبل آن را <strong>یاداشت کرده‌اید</strong> به عنوان مثال در تصویر زیر dev/sdb/ همان فلش درایو مورد نظر است. پس در اینجا dev/sdX/ را با <strong>نام فلش درایوتان</strong> که از قبل یاداشت برداشته اید عوض کنید اما توجه داشته باشید که در <strong>نام را بدون هیچ مقدار عددی</strong> وارد کنید مثلاً  نام باید به صورت dev/sdX/ باشد و <strong>نه</strong> dev/sdX1/.</p>
+<p><img alt="Photo" src="./pic/1/C/19.png"></p>
+<p>۱۳. زمانی که عملیات تمام شد به خط فرمان باز خواهید گشت حالا کامپیوتر را <strong>ری استارت</strong> کنید و به <strong>بخش – د</strong> بروید.</p>
+                </div><!-- /.entry-content -->
+        </article>
+
+        <hr />
+
+</section>
+        </div><!--/span-->
+
+                <div class="span3 well sidebar-nav" id="sidebar">
+<ul class="nav nav-list">
+
+<li class="nav-header"><h4><i class="icon-external-link"></i>معرفی</h4></li>
+    <li><a href="./pages/about" >درباره</a></li>
+    <li><a href="./pages/downloads">دانلود</a></li>                
+    <li><a href="./pages/support">پشتیبانی</a></li>
+    
+
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
+
+<li>
+<a href="./chapter-00.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل صفر</span>
+</a>
+</li>
+<li>
+<a href="./chapter-01.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل یک</span>
+</a>
+<li>
+<a href="./chapter-01-1.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-الف
+</a>
+</li>
+<li>
+<a href="./chapter-01-2.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-ب
+</a>
+</li>
+<li>
+<a href="./chapter-01-3.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-ج
+</a>
+</li>
+<li>
+<a href="./chapter-01-4.html">
+    <i class="icon-folder-open"></i>فصل یک بخش-د
+</a>
+</li>
+<li>
+<a href="./chapter-02.html">
+    <i class="icon-folder-open icon-large"></i><span style="font-weight:bold">فصل دوم</span>
+</a>
+<li>
+<a href="./chapter-02-1.html">
+    <i class="icon-folder-open"></i>فصل دوم بخش-الف
+</a>
+</li>
+<li>
+<a href="./chapter-02-2.html">
+    <i class="icon-folder-open"></i>فصل دوم بخش-ب
+</a>
+</li>
+<li>
+<a href="./chapter-02-P.html">
+    <i class="icon-folder-open"></i>فصل دوم پیوست
+</a>
+</li>
+</li>
+
+
+</ul>        </div><!--/.well -->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <address id="about">
+                ساخته شده با <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                                که خود از <a href="http://python.org">Python <i class="icon-external-link"></i></a> قدرت می‌گیرد.
+        </address><!-- /#about -->
+
+        <address>این کتابچه توسط <a>فرزین<i class="icon-external-link"></i></a> منتشر شده و
+                   هر شکلی از تکثیر مجدد آن با ذکر نام و لینک اصلی مجاز است.</address>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./theme/js/jquery-1.7.2.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
+  </body>
+</html>
